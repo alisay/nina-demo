@@ -79,7 +79,7 @@ dd.on('drop', load_local_audio);
 
 var remoteURLs = [
   {
-    title: 'CLICK TO PLAY', 
+    title: 'You can enter whatever text you would like here.<br>It will serve as a kind of click here to enter thing<br>The font can also change, check out: https://fonts.google.com/', 
     url: 'zapsplat_musical_ice_cream_van_musical_chime_004_43592-timestrech-1.33x.mp3', 
   }
 ];

@@ -83,10 +83,12 @@ function WAAPlayerUI(id, title, player, gain, recorder) {
 
     /**************** PLAY BUTTON ******************/
     var _playButton = document.createElement('button');
-    _playButton.innerHTML = "Play";
+    _playButton.innerHTML = "Again this text can say anything<br>But maybe 'Play' is most suitable";
     _playButton.onclick = function() {
+        var _input = document.getElementById('tempo-control-0');
         _player.play();
         _playButton.style.visibility="hidden";
+        _input.style.visibility="visible";
     };
     /***********************************************/
 
