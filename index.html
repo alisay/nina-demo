@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    .drag-and-drop {
+      border-style: solid;
+      border-width: medium;
+    }
+
+    .player-container {
+      /* border: 3px solid red; */
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: #eeeeee;
+      margin: auto;
+      text-align: center;
+      /* transform: translate(00%, 50%); */
+    }
+
+    input {
+      border: 3px solid red;
+      position: absolute;
+      text-align: center;
+      bottom: 50vh;
+      /* left: 50vw; */
+    }
+
+
+    #remote-files {
+      border: 3px solid blue;
+    }
+
+    button {
+      border: 3px solid green;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="remote-files"></div>
+
+  <script type="text/javascript" src="js/cbuffer.js"></script>
+  <script type="text/javascript" src="js/dsp.js"></script>
+  <script type="text/javascript" src="PV_fast_5.js"></script>
+  <script type="text/javascript" src="buffered-pv.js"></script>
+  <script type="text/javascript" src="waa-player/player.js"></script>
+  <script type="text/javascript" src="waa-player/ui.js"></script>
+  <script type="text/javascript" src="drag-and-drop.js"></script>
+  <script type="text/javascript" src="recorder.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
