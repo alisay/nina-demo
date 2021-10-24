@@ -87,6 +87,7 @@ function WAAPlayerUI(id, title, player, gain, recorder) {
     _playButton.onclick = function() {
         var _input = document.getElementById('tempo-control-0');
         _player.play();
+        _player.loop();
         _playButton.style.visibility="hidden";
         _input.style.visibility="visible";
     };

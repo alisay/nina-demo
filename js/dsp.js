@@ -833,7 +833,7 @@
     this.sampleRate = sampleRate;
     this.playStart  = playStart || 0; // 0%
     this.playEnd    = playEnd   || 1; // 100%
-    this.loopStart  = loopStart || 0;
+    this.loopStart  = loopStart || 1;
     this.loopEnd    = loopEnd   || 1;
     this.loopMode   = loopMode  || DSP.OFF;
     this.loaded     = false;
